@@ -37,8 +37,8 @@ jobs:
         with:
           version: latest
 
-      - name: Install Hexo
-        run: pnpm install hexo-cli@4.3.2
+#      - name: Install Hexo
+#        run: pnpm install hexo-cli@4.3.2
 
  #     - name: Install shokax-cli
  #       run: pnpm add shokax-cli
@@ -57,7 +57,7 @@ jobs:
  #       run: pnpm install hexo-linksfile-plugin
       
       - name: Build
-        run: npx hexo generate
+        run: pnpm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
