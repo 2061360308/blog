@@ -53,8 +53,8 @@ jobs:
       - name: Update hexo-lightning-minify
         run: pnpm update hexo-lightning-minify
 
-      - name: Install linksfile plugin
-        run: pnpm install hexo-linksfile-plugin
+ #     - name: Install linksfile plugin
+ #       run: pnpm install hexo-linksfile-plugin
       
       - name: Build
         run: npx hexo generate
