@@ -59,6 +59,11 @@ jobs:
       - name: Build
         run: pnpm run build
 
+      - name: Print directory structure
+        run: |
+          sudo apt-get install tree
+          tree public/
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
