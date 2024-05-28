@@ -40,12 +40,12 @@ jobs:
       - name: Install Hexo
         run: pnpm install hexo-cli
 
-      - name: Install shokax-cli
-        run: pnpm add shokax-cli
+ #     - name: Install shokax-cli
+ #       run: pnpm add shokax-cli
 
-      - name: Install Theme
-        run: |
-          npx SXC install shokaX
+ #     - name: Install Theme
+ #       run: |
+ #         npx SXC install shokaX
 
       - name: Install dependencies
         run: pnpm install
