@@ -55,7 +55,7 @@ permalink: system/friends.html
 </style>
 
 ## 友情链接
-{% linksfile system/friends/_data.yml %}
+{ % linksfile system/friends/_data.yml % }
 
 ## 申请友链
 ```
