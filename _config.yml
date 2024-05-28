@@ -110,9 +110,6 @@ auto_category:
  enable: true
  depth:
 
-external_link:
-  enable: false
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 #deploy:

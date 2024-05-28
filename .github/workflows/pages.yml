@@ -38,7 +38,7 @@ jobs:
           version: latest
 
       - name: Install Hexo
-        run: pnpm install hexo-cli
+        run: pnpm install hexo-cli@4.3.2
 
  #     - name: Install shokax-cli
  #       run: pnpm add shokax-cli
