@@ -64,6 +64,12 @@ jobs:
           sudo apt-get install tree
           tree public/
 
+      - name: Upload public directory
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: public/
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
