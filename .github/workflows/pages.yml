@@ -18,7 +18,7 @@ jobs:
           node-version: '18'  # Update this to a higher version
 
       - name: Install pnpm
-        run: npm install -g pnpm
+        run: npm install pnpm
 
       - name: Cache dependencies
         uses: actions/cache@v2
@@ -29,16 +29,14 @@ jobs:
             ${{ runner.os }}-pnpm-
 
       - name: Install Hexo
-        run: pnpm install -g hexo-cli
+        run: pnpm install hexo-cli
 
       - name: Install shokax-cli
-        run: pnpm add shokax-cli --global
+        run: pnpm add shokax-cli
 
       - name: Install Theme
         run: |
-          hexo init your_blog
-          cd your_blog
-          SXC install shokaX
+          npx SXC install shokaX
 
       - name: Install Dependencies
         run: pnpm install
