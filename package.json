@@ -18,6 +18,7 @@
     "esbuild": "0.20.0",
     "hexo": "^7.0.0",
     "hexo-algoliasearch": "^2.0.1",
+    "hexo-cli": "^4.3.2",
     "hexo-deployer-cos-cdn": "^1.7.1",
     "hexo-feed": "^1.1.2",
     "hexo-fs": "4.1.1",

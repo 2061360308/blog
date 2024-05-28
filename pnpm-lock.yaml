@@ -23,6 +23,9 @@ dependencies:
   hexo-algoliasearch:
     specifier: ^2.0.1
     version: 2.0.1
+  hexo-cli:
+    specifier: ^4.3.2
+    version: 4.3.2
   hexo-deployer-cos-cdn:
     specifier: ^1.7.1
     version: 1.7.1
