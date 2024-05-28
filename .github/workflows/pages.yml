@@ -50,8 +50,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-#      - name: Update hexo-lightning-minify
-#        run: pnpm update hexo-lightning-minify
+      - name: Update hexo-lightning-minify
+        run: pnpm update hexo-lightning-minify
 
  #     - name: Install linksfile plugin
  #       run: pnpm install hexo-linksfile-plugin
